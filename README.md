@@ -1,15 +1,21 @@
 # MotionDectect
-** We are using Kanban development: Situations of developing shoud be updated at the top of logs **
+** We are using Kanban development: Situations of developing shoud be updated at the top of logs **（Due)
 
 ** We decide to use Iteration design pattern, when updated, a log record must be added as a reminder to each other **
 ## Status:
-Project Stage: `Inited`
+Project Stage: `Inited` `First-Prototype`
 
 Team number:
 
-  Javier Sanguino
+ -  Javier Sanguino：
+     - fixed work time 
+       - //TODO
   
-  Riino(aka Shih-Chi CHANG): fixed working time: Thur.&Fri.: 13:00--17:00, Weekends:Anytime
+- Riino(aka Shih-Chi CHANG):
+  -  fixed work time: 
+     -  Thur.:  13:00--17:00 
+     -  Fri.：13:00--17:00 
+     -   Weekends: Anytime
   
 Currently goal: 
 
@@ -23,3 +29,5 @@ Currently goal:
   Inited github `readme`.
   We are going to set a Kanban(a real board in the lab) to show the process and schedule.
 
+- log 12.19 :
+  Going to establish a simple model to transfer data from STM to Pi using `socket`,which should includes a `.py` file in each side called `link.py`
