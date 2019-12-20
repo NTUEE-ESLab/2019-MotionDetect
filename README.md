@@ -1,5 +1,5 @@
 # MotionDectect
-** We are using Kanban development: Situations of developing shoud be updated at the top of logs **（Due)
+~~ We are using Kanban development: Situations of developing shoud be updated at the top of logs ~~
 
 ** We decide to use Iteration design pattern, when updated, a log record must be added as a reminder to each other **
 ## Status:
@@ -31,3 +31,6 @@ Currently goal:
 
 - log 12.19 :
   Going to establish a simple model to transfer data from STM to Pi using `socket`,which should includes a `.py` file in each side called `link.py`
+  
+- log 12.20
+  The remote repo of `Pi` is located on `home/git/` 
