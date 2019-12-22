@@ -9,7 +9,10 @@ Team number:
 
  -  Javier Sanguino：
      - fixed work time 
-       - //TODO
+       - Monday: 12:00-18:00
+       - Friday: 15:00-20:00
+       - Saturday: 10:00-14:00
+       - Sundays: 10:00-14:00
   
 - Riino(aka Shih-Chi CHANG):
   -  fixed work time: 
