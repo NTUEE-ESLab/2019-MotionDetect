@@ -37,3 +37,6 @@ Currently goal:
   
 - log 12.20
   The remote repo of `Pi` is located on `home/git/` 
+ 
+ -log 12.23
+  Data from the STM32 is accessed continuously. Problems debugguging, ready to merge with sockets for communication with RaspPi
