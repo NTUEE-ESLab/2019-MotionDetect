@@ -3,7 +3,9 @@
 
 ** We decide to use Iteration design pattern, when updated, a log record must be added as a reminder to each other **
 ## Status:
-Project Stage: `Inited` `First-Prototype`
+Project Stage: `Basic functions are done` 
+visit https://riino.site/2019/12/27/How-to-set-up-current-work-of-MotionDetect-Dev.27th/#how-to-run to check.
+**Due**: Data Storage & analysis , ML training, threhold design(uncertain)
 
 Team number:
 
@@ -38,5 +40,9 @@ Currently goal:
 - log 12.20
   The remote repo of `Pi` is located on `home/git/` 
  
- -log 12.23
+ - log 12.23
   Data from the STM32 is accessed continuously. Problems debugguging, ready to merge with sockets for communication with RaspPi
+  
+ - log 12.27 （mid-term report)
+  All basic functions are Successfully done:  WIFI,socket,censor of STM32, WIFI,socket on Python.
+  I use my laptop to edit/run python. Those codes should be easy to just copy and run in Pi.
