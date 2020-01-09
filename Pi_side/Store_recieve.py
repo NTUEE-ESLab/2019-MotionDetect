@@ -1,5 +1,5 @@
 import socket
-import torch
+#import torch
 import os
 import csv
 import numpy as np
@@ -36,7 +36,8 @@ while True:
         conn.close()
         exit(1)
 
-    tensor = torch.tensor(np.asarray(movement))
+    #tensor = torch.tensor(np.asarray(movement))
+    array = np.asarray(movement)
 
     if not os.path.exists(csv_file):
         with open(csv_file, mode='w') as csv_file:
@@ -45,9 +46,11 @@ while True:
             writer.writeheader()
             writer.writerow({'data_name': 'data_000.pt', 'label': label})
 
-        file_name = os.path.join('data_rdm', 'data_000.pt')
-        print(file_name)
-        torch.save(tensor, file_name)
+        #file_name = os.path.join('data_rdm', 'data_000.pt')
+        #print(file_name)
+        file_name = os.path.join('data_rdm', 'data_000')
+        np.save(array, file_name)
+        #torch.save(tensor, file_name)
 
     else:
         with open(csv_file, mode='r') as pred:
@@ -69,9 +72,12 @@ while True:
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
             writer.writerow({'data_name': file_name, 'label': label})
 
-        file_name = os.path.join('data_rdm', 'data_' + file_number + '.pt' )
+        #file_name = os.path.join('data_rdm', 'data_' + file_number + '.pt' )
+        #print(file_name)
+        file_name = os.path.join('data_rdm', 'data_' + file_number)
         print(file_name)
-        torch.save(tensor, file_name)
+        np.save(array, file_name)
+        #torch.save(tensor, file_name)
 
 
     conn.close()
