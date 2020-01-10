@@ -53,4 +53,7 @@ Currently goal:
   On 1.9, we have `store_recieve.py` to pick a fixed length of data stream from STM32,and save the data as a `.csv` file with a input lable `PASS : 0, SHOOT: 1` for training.
   Also, the installation of pytorch in Pi is running. According to doc it will take 3 hours.
   - log 1.10 (final report in schedule)
-  //TODO
+  We used about 2 and a half hours , to collect 250 sets of data aof gyro sensor. Each one with 48 records in 3 seconds.
+  Still installing pytorch in RasPi.
+  
+  Javier is left.
