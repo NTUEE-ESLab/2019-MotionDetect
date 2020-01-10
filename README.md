@@ -5,7 +5,7 @@
 ## Status:
 Project Stage: `Basic functions are done` 
 visit https://riino.site/2019/12/27/How-to-set-up-current-work-of-MotionDetect-Dev.27th/#how-to-run to check.
-**Due**: Data Storage & analysis , ML training, threhold design(uncertain)
+**Final Report is delay. New DDL : 1.14 16:00
 
 Team number:
 
@@ -15,6 +15,8 @@ Team number:
        - Friday: 15:00-20:00
        - Saturday: 10:00-14:00
        - Sundays: 10:00-14:00
+     - final day for flight:
+       - 10th, Jan.  2020.
   
 - Riino(aka Shih-Chi CHANG):
   -  fixed work time: 
