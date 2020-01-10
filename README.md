@@ -5,7 +5,7 @@
 ## Status:
 Project Stage: `Basic functions are done` 
 visit https://riino.site/2019/12/27/How-to-set-up-current-work-of-MotionDetect-Dev.27th/#how-to-run to check.
-**Due**: Data Storage & analysis , ML training, threhold design(uncertain)
+**Final Report is delay. New DDL : 1.14 16:00
 
 Team number:
 
@@ -15,6 +15,8 @@ Team number:
        - Friday: 15:00-20:00
        - Saturday: 10:00-14:00
        - Sundays: 10:00-14:00
+     - final day for flight:
+       - 10th, Jan.  2020.
   
 - Riino(aka Shih-Chi CHANG):
   -  fixed work time: 
@@ -46,3 +48,12 @@ Currently goal:
  - log 12.27 （mid-term report)
   All basic functions are Successfully done:  WIFI,socket,censor of STM32, WIFI,socket on Python.
   I use my laptop to edit/run python. Those codes should be easy to just copy and run in Pi.
+ - log 1.9 
+  We made some extra format adjustment to keep the length of data that everytime STM32 sends fixed.
+  On 1.9, we have `store_recieve.py` to pick a fixed length of data stream from STM32,and save the data as a `.csv` file with a input lable `PASS : 0, SHOOT: 1` for training.
+  Also, the installation of pytorch in Pi is running. According to doc it will take 3 hours.
+  - log 1.10 (final report in schedule)
+  We used about 2 and a half hours , to collect 250 sets of data aof gyro sensor. Each one with 48 records in 3 seconds.
+  Still installing pytorch in RasPi.
+  
+  Javier is left.
