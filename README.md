@@ -46,3 +46,9 @@ Currently goal:
  - log 12.27 （mid-term report)
   All basic functions are Successfully done:  WIFI,socket,censor of STM32, WIFI,socket on Python.
   I use my laptop to edit/run python. Those codes should be easy to just copy and run in Pi.
+ - log 1.9 
+  We made some extra format adjustment to keep the length of data that everytime STM32 sends fixed.
+  On 1.9, we have `store_recieve.py` to pick a fixed length of data stream from STM32,and save the data as a `.csv` file with a input lable `PASS : 0, SHOOT: 1` for training.
+  Also, the installation of pytorch in Pi is running. According to doc it will take 3 hours.
+  - log 1.10 (final report in schedule)
+  //TODO
