@@ -58,8 +58,6 @@ Currently goal:
   
   Javier flew back. Distance working now. 
   - log 1.12
-  Installing PyTorch in Pi, which took me a whole day and night.
-  Model trained over 225 sets of data we took on 1.10. Model tested over 25 random picks of sets of data. Model accuraccy: 70%.
-  Test.py prepared for predicting the kind of movement on the Pi.
+  Installing PyTorch in Pi, which took me a whole day and night. Also, Model trained over 225 sets of data we took on 1.10. Model tested over 25 random picks of sets of data. Model accuraccy: 70%. We also prepared `Test.py` prepared for predicting the kind of movement on the Pi.
   
   
