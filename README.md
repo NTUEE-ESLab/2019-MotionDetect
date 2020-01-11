@@ -53,9 +53,13 @@ Currently goal:
   On 1.9, we have `store_recieve.py` to pick a fixed length of data stream from STM32,and save the data as a `.csv` file with a input lable `PASS : 0, SHOOT: 1` for training.
   Also, the installation of pytorch in Pi is running. According to doc it will take 3 hours.
   - log 1.10 (final report in schedule)
-  We used about 2 and a half hours , to collect 250 sets of data aof gyro sensor. Each one with 48 records in 3 seconds.
+  We used about 2 and a half hours , to collect 250 sets of data aof gyro sensor. Each one with 49 records in 3 seconds.
   Still installing pytorch in RasPi.
   
-  Javier is left.
+  Javier flew back. Distance working now. 
   - log 1.12
   Installing PyTorch in Pi, which took me a whole day and night.
+  Model trained over 225 sets of data we took on 1.10. Model tested over 25 random picks of sets of data. Model accuraccy: 70%.
+  Test.py prepared for predicting the kind of movement on the Pi.
+  
+  
