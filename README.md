@@ -57,4 +57,5 @@ Currently goal:
   Still installing pytorch in RasPi.
   
   Javier is left.
-  - Installing PyTorch in Pi, which took me a whole day and night.
+  - log 1.12
+  Installing PyTorch in Pi, which took me a whole day and night.
