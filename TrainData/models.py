@@ -34,6 +34,7 @@ class Net(nn.Module):
 
     def forward(self, img):
 
+
         x = self.relu1(self.bn1(self.conv1(img)))
         x = self.maxpool1(x)
 

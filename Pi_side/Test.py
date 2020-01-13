@@ -25,6 +25,7 @@ def get_number(number, signal):
 
 args = arg_parse()
 model = models.Net()
+print(model)
 model_std = torch.load('model_best.pth.tar')
 model.load_state_dict(model_std)
 
