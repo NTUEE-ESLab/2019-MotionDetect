@@ -3,7 +3,7 @@
 
 ** We decide to use Iteration design pattern, when updated, a log record must be added as a reminder to each other **
 ## Status:
-Project Stage: `Basic functions are done` 
+Project Stage: `Operational Protrotype ` (installation of torch in Pi failed. Test in laptop) 
 visit https://riino.site/2019/12/27/How-to-set-up-current-work-of-MotionDetect-Dev.27th/#how-to-run to check.
 **Final Report is delay. New DDL : 1.14 16:00
 
