@@ -65,6 +65,5 @@ Currently goal:
   After some configuration, our ML models works and give its output between 'pass' and 'shoot'. 
   
   - log 1.14 (final report)
-  //TODO
-  
+  Optrational classifier done.  TODO: Design a threshold to make auto-detection.
   
