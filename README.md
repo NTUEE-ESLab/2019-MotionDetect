@@ -67,3 +67,11 @@ Currently goal:
   - log 1.14 (final report)
   Optrational classifier done.  TODO: Design a threshold to make auto-detection.
   
+## Demo
+  Pi side : Run MotionDetect.py (need models.py and other module )
+  STM side : Run main.cpp
+  
+  You need to change IP address in both Pi and STM side before running.
+  **To install torch in Pi**
+  Run night.sh in Pi.
+  e.g. `sudo bash night.sh`
